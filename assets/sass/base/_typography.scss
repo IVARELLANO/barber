@@ -1,0 +1,96 @@
+
+h1,h2,h3,h4,h5,p
+{
+     font-family: $Roboto;
+}
+.textsize
+{
+   
+    font-size: $xx-large;
+    
+    &--large
+    {
+        font-size: $x-large;
+    }
+    &--medium
+    {
+        font-size: $large;
+    }
+    &--small
+    {
+        font-size: $medium;
+    }
+}
+
+.textweight
+{
+    &--bold
+    {
+        font-weight: $bold;
+    }
+    &--regular
+    {
+        font-weight: $regular;
+    }
+    &--thin
+    {
+        font-weight: $thin;
+    }
+    &--italic
+    {
+        font-style: italic;
+    }
+}
+
+.textcolor
+{
+    &--white
+    {
+        color:$White;
+    }
+}
+
+.linespace
+{
+    &--small
+    {
+        line-height: 6vh;
+    }
+}
+
+.fontfamily
+{
+    &--playfair
+    {
+        font-family: $Playfair;
+    }
+}
+
+
+
+.links
+{
+    color:$Spanish;
+    
+    &--secondary
+    {
+        color: $Raisin;
+    }
+    &--light
+    {
+        color: $lightgray;
+    }
+    &--dark
+    {
+        color: $Eerie;
+    }
+
+}
+.links:hover
+{
+    color: $Eerie;
+}
+.links:active
+{
+    color: $lightgray;
+}

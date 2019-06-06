@@ -1,0 +1,15 @@
+.profile
+{
+    border: 1px solid $lightgray;
+    border-radius: 50%;
+    
+    
+    &--normal
+    {
+       width: 30vh; 
+    }
+    &--small
+    {
+       width: 40vh;
+    }
+}
